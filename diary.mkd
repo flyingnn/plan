@@ -1,10 +1,12 @@
 #日记
+
 ***
 ##2013-07-15
 1. HDFS 读取文件的工程
 2. OSGi 的 bundle 的分类以及 bundle 的创建
 2.1 bundle 分为 Service Bundle, Service Provider Bundle, Service Consumer Bundle 三种
 2.2 Service Bundler 不需要实现 BundleActivator; Service Provider Bundle 和 Service Consumer Bundler 则需要实现 BundlerActivator
+
 ***
 ##2013-07-16
 1. HDFS 写文件的工程
