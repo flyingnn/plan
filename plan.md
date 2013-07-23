@@ -13,13 +13,14 @@
 ***
 ##2013-07 ~ 2014-07
 * 将 《通向架构师的道路》全部通读，可以做的例子必须全部做出来，并且放到 github 和 googlecode 上去
-* 学习 Spring MVC, Spring Security, Shiro
-* 考一次 IELTS
 * 能够使用 Hadoop v2 独立且正确完成 Hadoop 权威指南上的全部例子 
 * 完成 Home Automation 的论文
 * 看完 《鸟哥的 Linux 私房菜》基础篇和服务器架设篇
 * 将到目前为止收集的关于分布式计算的论文全部通读一遍
 * 能够用 Python, Go 和 JavaScript 进行基本的编程
+* 学习前端 MVC 框架
+* 学习 Spring MVC, Spring Security, Shiro
+* 考一次 IELTS
 
 ***
 ##2013-07-17
