@@ -86,3 +86,7 @@ JFTT 程序员
 ***
 ##2013-07-23
 * 学习 Spring 的 SpEL
+
+***
+##2013-07-24
+继续设计 HotPlugWebAppServlet, HotPlugCmdServlet
