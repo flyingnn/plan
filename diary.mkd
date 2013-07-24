@@ -89,4 +89,4 @@ JFTT 程序员
 
 ***
 ##2013-07-24
-继续设计 HotPlugWebAppServlet, HotPlugCmdServlet
+继续设计 HotPlugWebAppServlet, HotPlugCmdServlet, HotPlugItemRegistryServlet
