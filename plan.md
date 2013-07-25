@@ -16,6 +16,7 @@
 * 每天推进 Home Automation 的工程
 * 依次掌握用 Python, Go 和 JavaScript 进行基本的编程
 * 周六周日推进《通向架构师的道路》系列，可以做的例子必须全部做出来，并且放到 github 和 googlecode 上去
+* 周日晚上学习 Hadoop 一节
 
 ***
 ##2013-02-01 ~ 2014-03-31
