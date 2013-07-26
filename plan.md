@@ -12,9 +12,10 @@
 
 ***
 ##2013-08-01 ~ 2014-01-31
-* 每天掌握60个新的 IELTS 单词
-* 每天推进 Home Automation 的工程
-* 依次掌握用 Python, Go 和 JavaScript 进行基本的编程
+* 06:00~07:00 学习 60 个新的 IELTS 单词, 跑步
+* 08:00~17:00 上班
+* 19:00~21:00 推进 Home Automation 的工程
+* 21:00~22:00 一三五学习《Effective Java》，二四六学习 Python, Go 和 JavaScript
 * 周六周日推进《通向架构师的道路》系列，可以做的例子必须全部做出来，并且放到 github 和 googlecode 上去
 * 周日晚上学习 Hadoop 一节
 
