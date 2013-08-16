@@ -12,10 +12,10 @@
 
 ***
 ##2013-08-01 ~ 2014-01-31
-* 06:00~07:00 学习 60 个新的 IELTS 单词, 跑步
-* 08:00~17:00 上班
+* 07:00~08:00 学习 60 个新的 IELTS 单词, 跑步
+* 09:00~18:00 上班
 * 19:00~21:00 推进 Home Automation 的工程
-* 21:00~22:00 一三五学习《Effective Java》，二四六学习 Python, Go 和 JavaScript
+* 21:00~22:00 一三五学习《Effective Java》，二四六学习 Go
 * 周六周日推进《通向架构师的道路》系列，可以做的例子必须全部做出来，并且放到 github 和 googlecode 上去
 * 周日晚上学习 Hadoop 一节
 
@@ -32,6 +32,7 @@
 * 学习前端 MVC 框架
 * 能够使用 Hadoop v2 独立且正确完成 Hadoop 权威指南上的全部例子 
 * 看完 《鸟哥的 Linux 私房菜》基础篇和服务器架设篇
+* 21:00~22:00 学习 Python, Go 和 JavaScript
 * 将到目前为止收集的关于分布式计算的论文全部通读一遍
 * 学习 Spring MVC, Spring Security, Shiro
 
