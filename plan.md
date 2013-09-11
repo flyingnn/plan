@@ -2,8 +2,8 @@
 ***
 
 ## 我的软件工程师成长基石：
-- 英语 + 论文
 - 《UNIX 编程艺术》 
+- 英语 + 论文
 - Linux + Go + Java + C
 - Yarn/Hadoop
 
