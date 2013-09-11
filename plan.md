@@ -2,9 +2,10 @@
 ***
 
 ## 我的软件工程师成长基石：
-1. 英语 + 论文
-2. Linux + Go + Java + C
-3. Yarn/Hadoop
+- 英语 + 论文
+- 《UNIX 编程艺术》 
+- Linux + Go + Java + C
+- Yarn/Hadoop
 
 ## 所谓 SMART 原则就是:
 
