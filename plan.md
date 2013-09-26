@@ -41,11 +41,11 @@
 * 09:00~18:00 推进 Home Automation 的工程  
 * 19:00~21:00 推进《通向架构师的道路》系列，可以做的例子必须全部做出来，并且放到 github 和 googlecode 上去  
 * 21:00~22:00 学习 Go
+* [随便看一些 Hadoop、论文]
 
 周日
 
-* 07:00~08:00 学习 60 个新的 IELTS 单词, 跑步
-* 随便看一些 Hadoop
+* 休息
 
 ## 2013-02-01 ~ 2014-03-31
 * 完成 Home Automation 的工程
@@ -54,14 +54,14 @@
 * 撰写 Home Automation 的论文
 
 ## 2014-02-01~ 2014-06-30
+* 为练习电钢做准备
+* 看完 《鸟哥的 Linux 私房菜》基础篇和服务器架设篇
+* 学习 Python, Go 和 JavaScript
 * 将到目前为止收集的关于分布式计算的论文全部通读一遍
 * 学习前端 MVC 框架
 * 能够使用 Hadoop v2 独立且正确完成 Hadoop 权威指南上的全部例子 
-* 看完 《鸟哥的 Linux 私房菜》基础篇和服务器架设篇
-* 学习 Python, Go 和 JavaScript
-* 学习 Spring MVC, Spring Security, Shiro
 * 跑步 + 拉韧带 + 太极(易学 + 医学 + 经络 + 道家吐息)
-* 为联系电钢做准备
+* 学习 Spring MVC, Spring Security, Shiro
 
 ## 2013-07-17
 1. 当前国内各种不安全，可否用互联网技术和思维来改善改变
