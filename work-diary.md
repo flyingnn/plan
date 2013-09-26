@@ -209,7 +209,7 @@ Q&A:
 - 模仿 GFS 中，data flow 和 control flow 的流动，在纸上画出信息的流动
 
 ## 2013-09-23
-- 审批退款，工作流状态在哪张表中(hj_workflow_info) 
+- 审批退款，工作流状态在哪张表中(hj\_workflow\_info) 
 - hjfinance 如何向 HSF 注册服务实现
     - 必选
         - 服务定义 (service interface)
@@ -224,10 +224,10 @@ Q&A:
     - （服务）消费者 
 - HSF 服务发布代码分析
     1. 出发点: HSFSpringProviderBean
-    - 注册服务接口并获得一个 com.taobao.config.client.Publisher 实例
+    - 服务注册
         - unique service name ("<接口全名\>:<版本号\>")
         - publisher id ("HSFProvider-<${unique service name}\>")
-    - com.taobao.config.client.Publisher 实例发布服务实现 
+    - 发布者定位 
         - "<ip\>:<port\>?[<name\>=<value\>[&...]]"
     - 源码
 
@@ -235,24 +235,31 @@ Q&A:
                 final String serviceUniqueName = metadata.getUniqueName();
                 final String data = HSFServiceTargetUtil.getTarget(
                 		configService.getHSFServerPort(), metadata);
-                // 根据服务类型，注册服务提供者，保证服务在本机的唯一性
+
                 final String publisherId = PUBLISHER_PREFIX + serviceUniqueName;
                 PublisherRegistration<String> registration = new PublisherRegistration<String>(
                 		publisherId, serviceUniqueName);
                 registration.setGroup(metadata.getGroup());
-                // 将服务注册到 config server 上
+                // 通过 Publisher 将服务注册到 config server 上
                 Publisher<String>  publisher = PublisherRegistrar.register(registration);
+                // 发布服务
                 publisher.publish(data);
                 return publisher;
             }
-- ConfigServer
+
+## 2013-09-26
+- RPC 协议 (Remote Procedure Call Protocol)
+    - What --- 远程过程调用协议是一个计算机通信协议。该协议允许运行于一台计算机的程序调用另一台计算机的子程序，而程序员无需额外地为这个交互作用编程。如果涉及的软件采用面向对象编程，那么远程过程调用亦可称作远程调用或远程方法调用，例：Java RMI。
+    - How --- remoteService.doSth(param1, param2, ..., paramN);
+    - Why --- 允许运行于一台计算机的程序调用另一台计算机的子程序，而程序员无需额外地为这个交互作用编程。
+    - Who --- 程序员
 - 袁鸣凯的 Java 面试题系列
 
 ## 转正面试准备内容
-- 目的：主动地让面试官了解实习一个月所完成的业务、整理的文档，以及到目前为止，个人的能力、知识和经验（深度目前还是不够的，但 server 端开发、客户端开发所需广度积累比较均衡，且并非那种流于表面的广度，而是可以做到从想法到原型一气呵成的程度）
+- 目的：主动地让面试官了解实习一个月所完成的业务、整理的文档，以及到目前为止，个人的能力、兴趣、知识和经验（深度目前还是欠缺的，但 server 端开发、客户端开发所需广度积累比较均衡，且并非那种流于表面的广度，而是可以做到从想法到原型一气呵成的程度）
 - 面试用思维导图
     - 必需：
-        - 汇金系统组成、汇金各个子系统的定位、各个环境的区别、整理7天无理由退款的业务需求变更、如何新增工作流、如何向 HSF 注册服务接口与实现、HSF 是如何做到 Load Balance 的
+        - 汇金系统组成、汇金各个子系统的定位、各个环境的区别、整理7天无理由退款优化前后的业务实现的变更、如何新增工作流、如何向 HSF 注册服务接口与实现、HSF 是如何做到 Load Balance 的
         - 我的技术博客，例如 Actor 编程模型与 “不要使用共享内存来通信，而应该使用通信来共享内存”
         - JavaFX-based jjf
         - my hadoop learning projects    
