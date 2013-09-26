@@ -5,7 +5,7 @@
 - 《UNIX 编程艺术》 + 《Unix网络编程卷1，套接字》+ 《TCP/IP 详解 卷1:协议》
 - 数据结构 + 算法 + 网络
 - 英语 + 论文
-- Go + Java + Bash
+- Java + Bash + Go
 - Yarn/Hadoop
 
 ## 所谓 SMART 原则就是:
