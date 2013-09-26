@@ -2,9 +2,10 @@
 ***
 
 ## 我的软件工程师成长基石：
-- 《UNIX 编程艺术》 
+- 《UNIX 编程艺术》 + 《Unix网络编程卷1，套接字》+ 《TCP/IP 详解 卷1:协议》
+- 数据结构 + 算法 + 网络
 - 英语 + 论文
-- Go + Java
+- Go + Java + Bash
 - Yarn/Hadoop
 
 ## 所谓 SMART 原则就是:
