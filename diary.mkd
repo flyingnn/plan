@@ -98,3 +98,29 @@ github 上的 SpringMavenHibernate 中，有不少工程的 pom.xml 引入了不
 ***
 ## 2013-08-13
 
+***
+## 2013-12-08
+1. 学习 Builder 模式
+- 学习如何使用Akka
+- openHAB Designer Backend 和 openHAB DesignerFX 都只允许成功加载配置文件目录一次，否则必须退出程序。
+- JavaFX 如何提供右键单击后菜单
+
+***
+## 2013-12-08
+- 每个 NestableElementName Xtdex 提供 isNestable()
+
+***
+## 2013-01-19
+- ItemResource 在添加新的 Item 时应该做文件内重名检查 --- 100%
+
+***
+## 2013-01-29
+- Xtext???.replica()可以不通过读取文件来提高性能 --- 100%
+- Persistence Repo --- 100%
+- ItemResource 增加 name 属性 --- 100%
+- Query Repo --- 100%
+- Event Bus
+- CQRS Query
+- CQRS Command
+- 模块依赖关系需要根据UXF来去重，因为maven是继承风格的
+- 客户端在添加新的 Item 时应该做全局 Item 重名检查
