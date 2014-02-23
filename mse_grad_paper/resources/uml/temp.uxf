@@ -19,4 +19,18 @@ ItemResource
 + name() : String</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>90</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+--
++ TYPE_NAME : String = ""
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
