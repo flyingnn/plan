@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>330</x>
+      <y>210</y>
+      <w>350</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes> 
+'ArduinoBinding</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>420</x>
+      <y>110</y>
+      <w>144</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;(
+r1=openHAB事件总线</panel_attributes>
+    <additional_attributes>80;30;80;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>460</x>
+      <y>360</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'温度轮询与发布</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>460</x>
+      <y>260</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'灯控</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>460</x>
+      <y>460</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'UDP收发</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

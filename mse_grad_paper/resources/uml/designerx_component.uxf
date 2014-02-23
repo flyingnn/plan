@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>630</w>
+      <h>530</h>
+    </coordinates>
+    <panel_attributes>
+'DesignerX</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>420</x>
+      <y>60</y>
+      <w>70</w>
+      <h>430</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'模型</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>520</x>
+      <y>60</y>
+      <w>70</w>
+      <h>430</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'Xtdex</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>190</x>
+      <y>430</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes> 
+'持久化</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>190</x>
+      <y>330</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'查询仓库</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>310</x>
+      <y>330</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'领域仓库</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>310</x>
+      <y>230</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'领域服务</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>190</x>
+      <y>230</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'查询服务</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>60</x>
+      <y>60</y>
+      <w>330</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes> 
+'图形用户界面</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>100</x>
+      <y>110</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'设备管理</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>240</x>
+      <y>110</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'设备控制UI管理</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
