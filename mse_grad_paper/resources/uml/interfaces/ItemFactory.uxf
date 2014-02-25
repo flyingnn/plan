@@ -12,15 +12,15 @@
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 ItemFactory
 --
-+ createColorItem(String name) : ColorItem
-+ createContactItem(String name) : ContactItem
-+ createDateTimeItem(String name) : DateTimeItem
-+ createDimmerItem(String name) : DimmerItem
-+ createGroupItem(String name) : GroupItem
-+ createNumberItem(String name) : NumberItem
-+ createRollershutterItem(String name) : RollershutterItem
-+ createStringItem(String name) : StringItem
-+ createSwitchItem(String name) : SwitchItem</panel_attributes>
++ createColorItem(name : String) : ColorItem
++ createContactItem(name : String) : ContactItem
++ createDateTimeItem(name : String) : DateTimeItem
++ createDimmerItem(name : String) : DimmerItem
++ createGroupItem(name : String) : GroupItem
++ createNumberItem(name : String) : NumberItem
++ createRollershutterItem(name : String) : RollershutterItem
++ createStringItem(name : String) : StringItem
++ createSwitchItem(name : String) : SwitchItem</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
