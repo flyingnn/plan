@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>110</x>
+      <y>80</y>
+      <w>490</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+ElementXtdex
+--
++ parseChart(xtext : String) : Chart
++ parseColorpicker(xtext : String): Colorpicker
++ parseFrame(xtext : String) : Frame
++ parseGroup(xtext : String) : Group
++ parseImage(xtext : String) : Image
++ parseList(xtext : String) : List
++ parseSelection(xtext : String) : Selection
++ parseSetpoint(xtext : String) : Setpoint
++ parseSlider(xtext : String) : Slider
++ parseSwitch(xtext : String) : Switch
++ parseText(xtext : String) : Text
++ parseVideo(xtext : String) : Video
++ parseWebview(xtext : String) : Webview 
++ parse(String xtext) : Element
++ &lt;T extends Element&gt;  toXtext(e : T) : String
++ &lt;T extends Element&gt;  toXtext(e : T, indentation : String) : String
++ isChildlessElement(xtext : String) : boolean
++ isChildfulElement(xtext : String) : boolean
++ parseChildfulElement(xtext : java.util.List&lt;String&gt;) : Element
++ parseChildlessElement(xtext : String) : Element</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

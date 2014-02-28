@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>150</x>
+      <y>90</y>
+      <w>430</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+ItemXtdex
+--
++ parseColorItem(xtext : String) : ColorItem
++ parseContactItem(xtext : String) : ContactItem
++ parseDateTimeItem(xtext : String) : DateTimeItem
++ parseDimmerItem(xtext : String) : DimmerItem
++ parseGroupItem(xtext : String) : GroupItem
++ parseNumberItem(xtext : String) : NumberItem
++ parseRollershutterItem(xtext : String) : RollershutterItem
++ parseStringItem(xtext : String) : StringItem
++ parseSwitchItem(xtext : String) : SwitchItem
++ &lt;T extends Item&gt; toXtext(item : T) : String
++ parseItem(xtext : String) : Item
++ toXtext(item : ColorItem) : String
++ String toXtext(item : ContactItem) : String
++ String toXtext(item : DateTimeItem) : String
++ String toXtext(item : DimmerItem) : String
++ String toXtext(item : GroupItem) : String
++ String toXtext(item : NumberItem) : String
++ String toXtext(item : RollershutterItem) : String
++ String toXtext(item : StringItem) : String
++ String toXtext(item : SwitchItem) : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

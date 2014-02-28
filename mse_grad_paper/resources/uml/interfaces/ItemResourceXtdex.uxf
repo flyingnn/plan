@@ -4,16 +4,17 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>220</x>
-      <y>90</y>
-      <w>410</w>
-      <h>70</h>
+      <x>160</x>
+      <y>140</y>
+      <w>450</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
-SitemapFactory
+ItemResourceXtdex
 --
-+ createSitemap(name : String) : Sitemap
-</panel_attributes>
++ fromXtext(String name, String xtext) : ItemResource
++ toXtext(ItemResource itemResource) : String
++ fromXtext(String name, List&lt;String&gt; xtext) : ItemResource</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
