@@ -7,7 +7,7 @@
       <x>110</x>
       <y>80</y>
       <w>490</w>
-      <h>390</h>
+      <h>370</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 ElementXtdex
@@ -25,7 +25,6 @@ ElementXtdex
 + parseText(xtext : String) : Text
 + parseVideo(xtext : String) : Video
 + parseWebview(xtext : String) : Webview 
-+ parse(String xtext) : Element
 + &lt;T extends Element&gt;  toXtext(e : T) : String
 + &lt;T extends Element&gt;  toXtext(e : T, indentation : String) : String
 + isChildlessElement(xtext : String) : boolean
