@@ -232,14 +232,14 @@ QueryService</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>270</x>
+      <x>280</x>
       <y>180</y>
-      <w>182</w>
+      <w>162</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=())
-CommandService</panel_attributes>
-    <additional_attributes>100;90;100;30</additional_attributes>
+DomainService</panel_attributes>
+    <additional_attributes>90;90;90;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
