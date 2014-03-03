@@ -4,7 +4,7 @@
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>801</x>
+      <x>684</x>
       <y>63</y>
       <w>297</w>
       <h>162</h>
@@ -17,10 +17,10 @@
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>873</x>
+      <x>756</x>
       <y>198</y>
-      <w>153</w>
-      <h>189</h>
+      <w>156</w>
+      <h>188</h>
     </coordinates>
     <panel_attributes>lt=())
 openHAB事件总线</panel_attributes>
@@ -29,7 +29,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>801</x>
+      <x>684</x>
       <y>369</y>
       <w>297</w>
       <h>270</h>
@@ -41,7 +41,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>828</x>
+      <x>711</x>
       <y>423</y>
       <w>108</w>
       <h>81</h>
@@ -54,7 +54,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>963</x>
+      <x>846</x>
       <y>423</y>
       <w>108</w>
       <h>81</h>
@@ -67,7 +67,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>828</x>
+      <x>711</x>
       <y>531</y>
       <w>243</w>
       <h>81</h>
@@ -80,7 +80,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>117</x>
+      <x>0</x>
       <y>63</y>
       <w>639</w>
       <h>576</h>
@@ -92,7 +92,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>576</x>
+      <x>459</x>
       <y>108</y>
       <w>63</w>
       <h>504</h>
@@ -105,7 +105,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>666</x>
+      <x>549</x>
       <y>108</y>
       <w>63</w>
       <h>504</h>
@@ -118,7 +118,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>144</x>
+      <x>27</x>
       <y>558</y>
       <w>405</w>
       <h>54</h>
@@ -130,7 +130,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>144</x>
+      <x>27</x>
       <y>423</y>
       <w>180</w>
       <h>63</h>
@@ -143,7 +143,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>351</x>
+      <x>234</x>
       <y>423</y>
       <w>198</w>
       <h>63</h>
@@ -156,7 +156,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>351</x>
+      <x>234</x>
       <y>288</y>
       <w>198</w>
       <h>63</h>
@@ -169,7 +169,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>144</x>
+      <x>27</x>
       <y>288</y>
       <w>180</w>
       <h>63</h>
@@ -182,7 +182,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>144</x>
+      <x>27</x>
       <y>108</y>
       <w>405</w>
       <h>126</h>
@@ -194,7 +194,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>207</x>
+      <x>90</x>
       <y>153</y>
       <w>117</w>
       <h>63</h>
@@ -207,7 +207,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>351</x>
+      <x>234</x>
       <y>153</y>
       <w>108</w>
       <h>63</h>
@@ -220,7 +220,7 @@ openHAB事件总线</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>162</x>
+      <x>45</x>
       <y>207</y>
       <w>132</w>
       <h>98</h>
@@ -232,7 +232,7 @@ QueryService</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>378</x>
+      <x>261</x>
       <y>207</y>
       <w>142</w>
       <h>98</h>
@@ -244,7 +244,7 @@ DomainService</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>126</x>
+      <x>9</x>
       <y>324</y>
       <w>202</w>
       <h>116</h>
@@ -257,20 +257,20 @@ SitemapQueryRepo</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>351</x>
+      <x>198</x>
       <y>324</y>
-      <w>189</w>
+      <w>262</w>
       <h>116</h>
     </coordinates>
     <panel_attributes>lt=())
-ItemResourceRepository
-SitemapRepository</panel_attributes>
-    <additional_attributes>99;99;99;27</additional_attributes>
+ItemResourceAggregateRepository
+SitemapAggregateRepository</panel_attributes>
+    <additional_attributes>135;99;135;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>144</x>
+      <x>27</x>
       <y>459</y>
       <w>172</w>
       <h>116</h>
@@ -283,7 +283,7 @@ SitemapQuery</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>333</x>
+      <x>216</x>
       <y>459</y>
       <w>232</w>
       <h>116</h>

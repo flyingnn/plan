@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>270</x>
+      <y>90</y>
+      <w>430</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+ItemResourceQueryRepo
+--
++ listAllAsReplicas() : List&lt;ItemResource&gt;
++ getReplicaByName(name : String) : ItemResource 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
