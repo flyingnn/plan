@@ -181,15 +181,15 @@ SitemapQueryRepo</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>270</x>
+      <x>288</x>
       <y>306</y>
-      <w>228</w>
+      <w>189</w>
       <h>116</h>
     </coordinates>
     <panel_attributes>lt=())
-ItemResourceAggregateRepo
-SitemapAggregateRepo</panel_attributes>
-    <additional_attributes>117;99;117;27</additional_attributes>
+ItemResourceRepository
+SitemapRepository</panel_attributes>
+    <additional_attributes>99;99;99;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -207,14 +207,14 @@ SitemapQuery</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>279</x>
+      <x>270</x>
       <y>441</y>
-      <w>204</w>
+      <w>232</w>
       <h>116</h>
     </coordinates>
     <panel_attributes>lt=())
-XtextItemResourceQuery
-XtextSitemapQuery</panel_attributes>
-    <additional_attributes>108;99;108;27</additional_attributes>
+XtextItemResourceRepository
+XtextSitemapRepository</panel_attributes>
+    <additional_attributes>117;99;117;27</additional_attributes>
   </element>
 </diagram>

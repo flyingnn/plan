@@ -4,22 +4,19 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>140</x>
-      <y>140</y>
-      <w>470</w>
-      <h>160</h>
+      <x>130</x>
+      <y>120</y>
+      <w>500</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 CommandService
 --
-+ newItemResource(name : String) : ItemResource
-+ newSitemap(name : String) : Sitemap
-+ renameItemResource(oldName : String, newName : String)
-+ renameSitemap(oldName : String, newName : String)
-+ deleteItemResource(name : String) : void
-+ deleteSitemap(name : String) : void
-+ appendItem() :
++ newItemResource(name : String) : String
++ getItemResource(name : String) : ItemResource
 
++ newSitemap(name : String) : String
++ getSitemap(name String) : Sitemap 
 </panel_attributes>
     <additional_attributes/>
   </element>
