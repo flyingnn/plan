@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>160</x>
+      <y>140</y>
+      <w>430</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+SitemapAggregate
+--
++ update(name : String, label : String, icon : String) : void
++ appendChild(e : Element) : void
++ update(sitemap : Sitemap) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
