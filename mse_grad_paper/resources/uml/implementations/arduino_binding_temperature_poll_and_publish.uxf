@@ -5,18 +5,18 @@
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>0</x>
-      <y>108</y>
+      <y>135</y>
       <w>252</w>
       <h>27</h>
     </coordinates>
-    <panel_attributes>_:TemperaturePollingBackendThread_</panel_attributes>
+    <panel_attributes>_:TemperaturePollingBackgroundThread_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>297</x>
-      <y>108</y>
+      <y>135</y>
       <w>117</w>
       <h>27</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>630</x>
-      <y>108</y>
+      <x>693</x>
+      <y>135</y>
       <w>153</w>
       <h>27</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>459</x>
-      <y>108</y>
+      <x>522</x>
+      <y>135</y>
       <w>117</w>
       <h>27</h>
     </coordinates>
@@ -49,7 +49,7 @@
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
       <x>81</x>
-      <y>180</y>
+      <y>207</y>
       <w>18</w>
       <h>261</h>
     </coordinates>
@@ -60,7 +60,7 @@
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>72</x>
-      <y>171</y>
+      <y>198</y>
       <w>261</w>
       <h>98</h>
     </coordinates>
@@ -72,7 +72,7 @@
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
       <x>342</x>
-      <y>180</y>
+      <y>207</y>
       <w>18</w>
       <h>261</h>
     </coordinates>
@@ -82,8 +82,8 @@
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>495</x>
-      <y>180</y>
+      <x>558</x>
+      <y>207</y>
       <w>18</w>
       <h>261</h>
     </coordinates>
@@ -93,8 +93,8 @@
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>702</x>
-      <y>180</y>
+      <x>765</x>
+      <y>207</y>
       <w>18</w>
       <h>261</h>
     </coordinates>
@@ -105,7 +105,7 @@
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>72</x>
-      <y>234</y>
+      <y>261</y>
       <w>287</w>
       <h>63</h>
     </coordinates>
@@ -117,19 +117,19 @@ updateAsync()</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>333</x>
-      <y>261</y>
-      <w>179</w>
+      <y>288</y>
+      <w>242</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-postUpdate()</panel_attributes>
-    <additional_attributes>162;45;27;45</additional_attributes>
+postTemperatureUpdate()</panel_attributes>
+    <additional_attributes>225;45;27;45</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>486</x>
-      <y>288</y>
+      <x>549</x>
+      <y>315</y>
       <w>233</w>
       <h>63</h>
     </coordinates>
@@ -140,8 +140,8 @@ postUpdate()</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>486</x>
-      <y>333</y>
+      <x>549</x>
+      <y>360</y>
       <w>233</w>
       <h>44</h>
     </coordinates>
@@ -152,18 +152,18 @@ postUpdate()</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>333</x>
-      <y>360</y>
-      <w>179</w>
+      <y>387</y>
+      <w>242</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;</panel_attributes>
-    <additional_attributes>27;27;162;27</additional_attributes>
+    <additional_attributes>27;27;225;27</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>72</x>
-      <y>387</y>
+      <y>414</y>
       <w>287</w>
       <h>44</h>
     </coordinates>
@@ -174,7 +174,7 @@ postUpdate()</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>63</x>
-      <y>108</y>
+      <y>135</y>
       <w>44</w>
       <h>89</h>
     </coordinates>
@@ -185,7 +185,7 @@ postUpdate()</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>324</x>
-      <y>108</y>
+      <y>135</y>
       <w>44</w>
       <h>89</h>
     </coordinates>
@@ -195,8 +195,8 @@ postUpdate()</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>477</x>
-      <y>108</y>
+      <x>540</x>
+      <y>135</y>
       <w>44</w>
       <h>89</h>
     </coordinates>
@@ -206,8 +206,8 @@ postUpdate()</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>684</x>
-      <y>108</y>
+      <x>747</x>
+      <y>135</y>
       <w>44</w>
       <h>89</h>
     </coordinates>

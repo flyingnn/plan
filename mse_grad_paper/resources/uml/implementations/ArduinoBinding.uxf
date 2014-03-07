@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>580</y>
+      <w>800</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ArduinoBinding
+--
++ controlLight(itemName : String, command : OnOffType) : void
++ postTemperatureUpdate(itemName : String, newCentiDegree : BigDecimal) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>260</y>
+      <w>800</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>/org.openhab.core.binding.AbstractBinding/
+--
+# eventPublisher : EventPublisher
+--
++ receiveCommand(itemName : String, command : Command) : void
++ receiveUpdate(itemName : String, newStatus : State) : void
+# internalReceiveCommand(itemName : String, command : Command) : void
+# internalReceiveUpdate(itemName : String, newStatus : State) : void
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>130</y>
+      <w>800</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>/org.openhab.core.events.AbstractEventSubscriber/
+--
++ handleEvent(event : Event) : void
++ receiveCommand(itemName : String, command : Command) : void
++ receiveUpdate(itemName : String, newStatus : State) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>290</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+org.osgi.service.event.EventHandler
+--
++ handleEvent(event : Event) : void 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>0</y>
+      <w>500</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+org.openhab.core.events.EventSubscriber
+--
++ receiveCommand(itemName : String, command : Command) : void
++ receiveUpdate(itemName : String, newStatus : State) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>430</y>
+      <w>500</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;
+org.openhab.core.events.EventPublisher
+--
++ sendCommand(itemName : String, command : Command) : void
++ postCommand(itemName : String, command : Command) : void
++ postUpdate(itemName : String, newStatus : State) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>90</x>
+      <y>50</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>50</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>340</x>
+      <y>180</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>550</x>
+      <y>350</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;80;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>120</x>
+      <y>350</y>
+      <w>50</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;230</additional_attributes>
+  </element>
+</diagram>
