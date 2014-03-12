@@ -5,7 +5,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>684</x>
-      <y>0</y>
+      <y>108</y>
       <w>297</w>
       <h>162</h>
     </coordinates>
@@ -17,7 +17,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>684</x>
-      <y>279</y>
+      <y>387</y>
       <w>297</w>
       <h>270</h>
     </coordinates>
@@ -29,7 +29,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>711</x>
-      <y>333</y>
+      <y>441</y>
       <w>108</w>
       <h>81</h>
     </coordinates>
@@ -42,7 +42,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>846</x>
-      <y>333</y>
+      <y>441</y>
       <w>108</w>
       <h>81</h>
     </coordinates>
@@ -55,7 +55,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>711</x>
-      <y>441</y>
+      <y>549</y>
       <w>243</w>
       <h>81</h>
     </coordinates>
@@ -68,7 +68,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>270</x>
-      <y>225</y>
+      <y>333</y>
       <w>81</w>
       <h>72</h>
     </coordinates>
@@ -81,7 +81,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>270</x>
-      <y>351</y>
+      <y>459</y>
       <w>81</w>
       <h>63</h>
     </coordinates>
@@ -94,7 +94,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>27</x>
-      <y>468</y>
+      <y>576</y>
       <w>585</w>
       <h>54</h>
     </coordinates>
@@ -106,7 +106,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>27</x>
-      <y>351</y>
+      <y>459</y>
       <w>180</w>
       <h>63</h>
     </coordinates>
@@ -119,7 +119,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>414</x>
-      <y>351</y>
+      <y>459</y>
       <w>198</w>
       <h>63</h>
     </coordinates>
@@ -132,7 +132,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>414</x>
-      <y>225</y>
+      <y>333</y>
       <w>198</w>
       <h>72</h>
     </coordinates>
@@ -145,7 +145,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>27</x>
-      <y>225</y>
+      <y>333</y>
       <w>180</w>
       <h>72</h>
     </coordinates>
@@ -158,7 +158,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>27</x>
-      <y>45</y>
+      <y>153</y>
       <w>585</w>
       <h>126</h>
     </coordinates>
@@ -170,7 +170,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>162</x>
-      <y>90</y>
+      <y>198</y>
       <w>117</w>
       <h>63</h>
     </coordinates>
@@ -183,7 +183,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>342</x>
-      <y>90</y>
+      <y>198</y>
       <w>108</w>
       <h>63</h>
     </coordinates>
@@ -196,7 +196,7 @@
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
       <x>0</x>
-      <y>0</y>
+      <y>108</y>
       <w>639</w>
       <h>549</h>
     </coordinates>
@@ -208,7 +208,7 @@
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>756</x>
-      <y>135</y>
+      <y>243</y>
       <w>156</w>
       <h>161</h>
     </coordinates>
@@ -220,7 +220,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>90</x>
-      <y>144</y>
+      <y>252</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -231,7 +231,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>486</x>
-      <y>144</y>
+      <y>252</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -242,7 +242,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>90</x>
-      <y>270</y>
+      <y>378</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -253,7 +253,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>486</x>
-      <y>270</y>
+      <y>378</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -264,7 +264,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>90</x>
-      <y>387</y>
+      <y>495</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -275,7 +275,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>486</x>
-      <y>387</y>
+      <y>495</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -286,7 +286,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>288</x>
-      <y>144</y>
+      <y>252</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -297,7 +297,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>288</x>
-      <y>270</y>
+      <y>378</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -308,7 +308,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>180</x>
-      <y>234</y>
+      <y>342</y>
       <w>107</w>
       <h>44</h>
     </coordinates>
@@ -319,7 +319,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>180</x>
-      <y>270</y>
+      <y>378</y>
       <w>107</w>
       <h>98</h>
     </coordinates>
@@ -330,7 +330,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>288</x>
-      <y>387</y>
+      <y>495</y>
       <w>44</w>
       <h>98</h>
     </coordinates>
@@ -341,7 +341,7 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>324</x>
-      <y>234</y>
+      <y>342</y>
       <w>107</w>
       <h>44</h>
     </coordinates>
@@ -352,11 +352,37 @@ openHAB事件总线</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>324</x>
-      <y>270</y>
+      <y>378</y>
       <w>107</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>27;27;90;81</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>693</x>
+      <y>171</y>
+      <w>117</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'设备控制界面</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>855</x>
+      <y>171</y>
+      <w>117</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes> 
+'
+'虚拟设备仓库</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
