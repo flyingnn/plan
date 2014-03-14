@@ -124,3 +124,7 @@ github 上的 SpringMavenHibernate 中，有不少工程的 pom.xml 引入了不
 - CQRS Command
 - 模块依赖关系需要根据UXF来去重，因为maven是继承风格的
 - 客户端在添加新的 Item 时应该做全局 Item 重名检查
+
+***
+## 2014-03-13
+- 论文需要对每张图片进行编号的指定
