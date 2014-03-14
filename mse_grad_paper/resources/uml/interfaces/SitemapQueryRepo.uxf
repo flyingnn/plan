@@ -36,7 +36,7 @@ SitemapQueryRepo
       <w>390</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>ItemResourceQueryRepoImpl
+    <panel_attributes>SitemapQueryRepoImpl
 --
 - xtextSitemapRepository : XtextSitemapRepository</panel_attributes>
     <additional_attributes/>
