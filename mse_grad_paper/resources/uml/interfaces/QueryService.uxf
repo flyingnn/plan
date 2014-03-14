@@ -6,7 +6,7 @@
     <coordinates>
       <x>20</x>
       <y>20</y>
-      <w>350</w>
+      <w>390</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
@@ -23,12 +23,13 @@ QueryService
     <coordinates>
       <x>20</x>
       <y>190</y>
-      <w>350</w>
-      <h>50</h>
+      <w>390</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>QueryServiceImpl
 --
-- queryRepo : QueryRepo</panel_attributes>
+- itemResourceQueryRepo : ItemResourceQueryRepo
+- sitemapQueryRepo : SitemapQueryRepo</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
