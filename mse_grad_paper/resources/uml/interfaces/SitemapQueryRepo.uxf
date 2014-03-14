@@ -6,7 +6,7 @@
     <coordinates>
       <x>110</x>
       <y>90</y>
-      <w>430</w>
+      <w>390</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
@@ -15,6 +15,30 @@ SitemapQueryRepo
 + listAllAsReplicas() : List&lt;Sitemap&gt;
 + getReplicaByName(name : String) : Sitemap 
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>300</x>
+      <y>150</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>110</x>
+      <y>230</y>
+      <w>390</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ItemResourceQueryRepoImpl
+--
+- xtextSitemapRepository : XtextSitemapRepository</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

@@ -4,9 +4,9 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>270</x>
-      <y>90</y>
-      <w>430</w>
+      <x>210</x>
+      <y>130</y>
+      <w>470</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
@@ -16,5 +16,29 @@ ItemResourceQueryRepo
 + getReplicaByName(name : String) : ItemResource 
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>270</y>
+      <w>470</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ItemResourceQueryRepoImpl
+--
+- xtextItemResourceRepository : XtextItemResourceRepository</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>190</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
   </element>
 </diagram>
