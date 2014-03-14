@@ -6,7 +6,7 @@
     <coordinates>
       <x>170</x>
       <y>80</y>
-      <w>310</w>
+      <w>390</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
@@ -16,5 +16,29 @@ SitemapAggregateRepo
 + get(name : String) : SitemapAggregate 
 + delete(name : String) : void</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>170</x>
+      <y>230</y>
+      <w>390</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>SitemapQueryRepoImpl
+--
+- xtextSitemapRepository : XtextSitemapRepository</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>340</x>
+      <y>150</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
   </element>
 </diagram>
