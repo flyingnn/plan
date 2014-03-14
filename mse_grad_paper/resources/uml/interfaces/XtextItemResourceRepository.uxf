@@ -5,16 +5,41 @@
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>200</x>
-      <y>160</y>
-      <w>330</w>
-      <h>100</h>
+      <y>220</y>
+      <w>460</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 XtextItemResourceRepository
 --
++ createItemResource(name : String) : XtextItemResource
 + find(name : String) : XtextItemResource
 + nameSet() : Set&lt;String&gt;
 + deleteItemResource(name : String) : void</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>200</x>
+      <y>390</y>
+      <w>460</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>XtextItemResourceRepositoryImpl
+--
+- irXtdex : ItemResourceXtdex</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>390</x>
+      <y>310</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
   </element>
 </diagram>

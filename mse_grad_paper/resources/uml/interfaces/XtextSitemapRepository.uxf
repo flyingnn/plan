@@ -6,15 +6,40 @@
     <coordinates>
       <x>200</x>
       <y>130</y>
-      <w>310</w>
-      <h>100</h>
+      <w>420</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 XtextSitemapRepository
 --
++ createSitemap(name : String) : XtextSitemap
 + find(name : String) : XtextSitemap
 + nameSet() : Set&lt;String&gt;
 + deleteSitemap(name : String) : void</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>200</x>
+      <y>290</y>
+      <w>420</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>XtextSitemapRepositoryImpl
+--
+- sitemapXtdex : SitemapXtdex</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>380</x>
+      <y>210</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
   </element>
 </diagram>
