@@ -11,8 +11,8 @@
     </coordinates>
     <panel_attributes>ArduinoBinding
 --
-+ controlLight(itemName : String, command : OnOffType) : void
-+ postTemperatureUpdate(itemName : String, newCentiDegree : BigDecimal) : void</panel_attributes>
+- controlLight(itemName : String, command : OnOffType) : void
+- postTemperatureUpdate(itemName : String, newCentiDegree : BigDecimal) : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
