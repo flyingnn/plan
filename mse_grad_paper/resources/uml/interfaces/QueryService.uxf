@@ -18,4 +18,28 @@ QueryService
 + sitemap(name : String) : Sitemap</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>20</x>
+      <y>190</y>
+      <w>350</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>QueryServiceImpl
+--
+- queryRepo : QueryRepo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>160</x>
+      <y>110</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;80</additional_attributes>
+  </element>
 </diagram>
