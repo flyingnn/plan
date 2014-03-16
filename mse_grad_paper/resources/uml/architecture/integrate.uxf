@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>260</x>
+      <y>220</y>
+      <w>490</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Java SE 7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>260</x>
+      <y>160</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>  
+DesingerX客户端</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>430</x>
+      <y>160</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>openHAB Runtime</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>590</x>
+      <y>160</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ArduinoBinding</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>430</x>
+      <y>190</y>
+      <w>320</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Equinox OSGi</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>260</x>
+      <y>250</y>
+      <w>490</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Operating System</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
