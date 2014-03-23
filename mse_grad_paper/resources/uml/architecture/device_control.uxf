@@ -7,7 +7,7 @@
       <x>190</x>
       <y>40</y>
       <w>270</w>
-      <h>170</h>
+      <h>270</h>
     </coordinates>
     <panel_attributes>设备控制</panel_attributes>
     <additional_attributes/>
@@ -59,12 +59,45 @@
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>20</x>
+      <x>80</x>
       <y>100</y>
-      <w>270</w>
+      <w>210</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>250;50;30;30</additional_attributes>
+    <additional_attributes>190;50;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>270</x>
+      <y>230</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>设备状态自主更新</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>40</x>
+      <y>210</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>设备</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>80</x>
+      <y>220</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>190;30;30;30</additional_attributes>
   </element>
 </diagram>
