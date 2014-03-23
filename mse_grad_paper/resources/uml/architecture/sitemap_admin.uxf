@@ -5,9 +5,9 @@
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
       <x>300</x>
-      <y>190</y>
+      <y>70</y>
       <w>270</w>
-      <h>270</h>
+      <h>560</h>
     </coordinates>
     <panel_attributes>设备控制UI管理</panel_attributes>
     <additional_attributes/>
@@ -16,7 +16,7 @@
     <type>com.umlet.element.UseCase</type>
     <coordinates>
       <x>380</x>
-      <y>220</y>
+      <y>100</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -27,40 +27,40 @@
     <type>com.umlet.element.UseCase</type>
     <coordinates>
       <x>380</x>
+      <y>160</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>添加UI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>380</x>
+      <y>220</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>修改UI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>380</x>
       <y>280</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>添加UI元素</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.UseCase</type>
-    <coordinates>
-      <x>380</x>
-      <y>340</y>
-      <w>120</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>修改UI元素</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.UseCase</type>
-    <coordinates>
-      <x>380</x>
-      <y>400</y>
-      <w>120</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>删除UI元素</panel_attributes>
+    <panel_attributes>删除UI</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
       <x>130</x>
-      <y>260</y>
+      <y>290</y>
       <w>80</w>
       <h>120</h>
     </coordinates>
@@ -71,34 +71,122 @@
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>170</x>
-      <y>210</y>
+      <y>90</y>
       <w>230</w>
-      <h>80</h>
+      <h>230</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>210;30;30;60</additional_attributes>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>210;30;30;210</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>180</x>
+      <y>150</y>
+      <w>220</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>200;30;30;150</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>180</x>
+      <y>200</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>200;30;30;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>180</x>
+      <y>270</y>
+      <w>220</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>200;30;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>380</x>
+      <y>340</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>查看UI元素</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>380</x>
+      <y>400</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>添加UI元素</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>380</x>
+      <y>460</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>修改UI元素</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>380</x>
+      <y>520</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>删除UI元素</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>170</x>
-      <y>260</y>
+      <y>330</y>
       <w>230</w>
-      <h>60</h>
+      <h>230</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>210;40;30;30</additional_attributes>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>210;210;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>170</x>
-      <y>280</y>
+      <y>320</y>
       <w>230</w>
-      <h>90</h>
+      <h>180</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>210;70;30;30</additional_attributes>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>210;160;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>170</x>
+      <y>310</y>
+      <w>230</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>210;110;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -106,9 +194,9 @@
       <x>170</x>
       <y>300</y>
       <w>230</w>
-      <h>140</h>
+      <h>80</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>210;120;30;30</additional_attributes>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>210;60;30;30</additional_attributes>
   </element>
 </diagram>
