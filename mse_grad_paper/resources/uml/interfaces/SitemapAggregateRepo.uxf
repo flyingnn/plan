@@ -25,7 +25,7 @@ SitemapAggregateRepo
       <w>390</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>SitemapQueryRepoImpl
+    <panel_attributes>SitemapAggregateRepoImpl
 --
 - xtextSitemapRepository : XtextSitemapRepository</panel_attributes>
     <additional_attributes/>
