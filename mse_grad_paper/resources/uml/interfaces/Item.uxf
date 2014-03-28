@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>50</y>
+      <w>350</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Item
+--
++ getTypeName() : String
++ setName(name : String) : void
++ getName() : String
++ setLabelText(labelText : String) : void
++ getLabelText() : String
++ setIconName(iconName : String) : void
++ getIconName() : String
++ getGroups() : List&lt;String&gt;
++ addGroups(groups : List&lt;String&gt;) : void
++ addGroup(group : String) : void
++ getBindingConfig() : String
++ setBindingConfig(bc : String) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
