@@ -158,5 +158,6 @@ github 上的 SpringMavenHibernate 中，有不少工程的 pom.xml 引入了不
 - openHAB如何使用OSGi、带来了什么好处，可以再增加1，000字的相关技术概论 --- 0%
 
 ***
-## 2013-03-28 PM
-- 白盒测试Model, Xtdex, QueryRepo
+## 2013-03-31 PM
+- 第2章的图，手绘 --- 0%
+- 重新格式化标题与正文 --- 0%
