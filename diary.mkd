@@ -168,6 +168,14 @@ github 上的 SpringMavenHibernate 中，有不少工程的 pom.xml 引入了不
 
 ***
 ## 2014-04-07
-- 编写ArduinoBinding测试用UDP Server程序 --- 0%
-- 编写ArduinoBinding灯控逻辑 --- 0%
-- 测试灯控 --- 0%
+- 编写ArduinoBinding测试用UDP Server程序 --- 100%
+- 编写ArduinoBinding灯控逻辑 --- 100%
+- 测试灯控 --- 100%
+
+***
+## 2014-04-17
+- 修改论文 --- 100%
+- 修改打印格式（先选中全文修改，然后再修改摘要部分的打印格式） --- 0%
+- 打印盲审论文 --- 0%
+- 打印论文申请表 --- 100%
+- 学校导师、企业导师签名 --- 0%
